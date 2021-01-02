@@ -41,10 +41,10 @@ end
 
 function setup_callout_hud(player)
     local bg_hud = game:newclienthudelem(player);
-	bg_hud.alpha = 0.0;
+    bg_hud.alpha = 0.0;
     bg_hud.alignx = "left";
-	bg_hud.aligny = "top";
-	bg_hud.horzalign = "left";
+    bg_hud.aligny = "top";
+    bg_hud.horzalign = "left";
     bg_hud.vertalign = "top";
     bg_hud.x = -36;
     bg_hud.y = 82;
@@ -58,19 +58,19 @@ function setup_callout_hud(player)
     callouthud.font = "objective";
     callouthud.fontscale = 1.0;
     callouthud.alignx = "left";
-	callouthud.aligny = "top";
-	callouthud.horzalign = "left";
+    callouthud.aligny = "top";
+    callouthud.horzalign = "left";
     callouthud.vertalign = "top";
-	callouthud.x = -34;
+    callouthud.x = -34;
     callouthud.y = 82;
     --[[callouthud.x = 148;
     callouthud.y = -18;--]]
-	callouthud.hidewheninmenu = true;
+    callouthud.hidewheninmenu = true;
     callouthud:settext("");
 
     local refresh_interval = game:oninterval(function() refresh_pos(callouthud, bg_hud, player) end, 200) 
 
-	function disconnect_callback()
+    function disconnect_callback()
         refresh_interval:clear()
         callouthud:delete()
     end
@@ -199,10 +199,10 @@ function setup_callout_points(map)
 	global_calloutpoints[10]["radius"] = 194.00
 
 	---------------        MAP FAVELA : the football stadium boiii!                          ---------------
-    elseif map == "mp_favela_iw6" then --  : 
+    elseif map == "mp_favela_iw6" then
 	global_calloutpoints[1] = {}
 	global_calloutpoints[1]["callout"] = "GRAVEYARD"
-    global_calloutpoints[1]["center"] = vector:new(-900.60, -979.80, 4.20)
+	global_calloutpoints[1]["center"] = vector:new(-900.60, -979.80, 4.20)
 	global_calloutpoints[1]["radius"] = 448.00
 	
 	global_calloutpoints[2] = {}
