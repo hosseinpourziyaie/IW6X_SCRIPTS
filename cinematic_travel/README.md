@@ -23,4 +23,4 @@ It will load automatically for private match and dedicated server
 
 https://www.youtube.com/watch?v=zYJnx1L1rV0
 
-![code](https://raw.githubusercontent.com/hosseinpourziyaie/IW6X_SCRIPTS/master/maps_callouts/showoff_0.jpg)
+![code](https://raw.githubusercontent.com/hosseinpourziyaie/IW6X_SCRIPTS/master/cinematic_travel/showoff_0.jpg)
