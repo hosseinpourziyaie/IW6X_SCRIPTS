@@ -50,7 +50,7 @@ function setup_callout_hud(player)
     bg_hud.y = 82;
     bg_hud.hidewheninmenu = true;
     --hud.archived = 1;
-    bg_hud:setmaterial("black", 183, 12);
+    bg_hud:setshader("black", 183, 12); // back in v1.1.0 was --> setmaterial
 
 
     local callouthud = game:newclienthudelem(player);
