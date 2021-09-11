@@ -12,8 +12,8 @@
 ** [NOTE] As of this version Bezier Flight not available. Its just simple Linear fly
 **         Its possible tho to have camera rotate with start_ang, finish_ang parameters 
 ** 
-** [NOTE] travel pathz for mp_conflict, mp_shipment_ns and mp_swamp  
-**                                               were recorded by Hosseinpourziyaie
+** [NOTE] travel pathz for mp_conflict, mp_shipment_ns, mp_swamp, mp_ca_rumble, mp_dig,
+**                                       mp_dart and mp_favela_iw6 were recorded by Hosseinpourziyaie
 ** 
 ** [WARNING] You are not Allowed using this script in commercial purposes without Author's permission 
 ** 
