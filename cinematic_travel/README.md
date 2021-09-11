@@ -1,7 +1,7 @@
 # Call of Duty®: Ghosts Scripted Cinematic Flight Travel
 
 ## Installation 
-This script requires **[iw6x-client](https://github.com/XLabsProject/iw6x-client)**. get lastest release of it from [here](https://github.com/XLabsProject/iw6x-client)
+This script requires **[iw6x-client](https://github.com/XLabsProject/iw6x-client)**. get lastest release of it from [here](https://github.com/XLabsProject/iw6x-client/releases/latest)
 
 Just copy script folder in "game directory\iw6x\scripts" then start private match/run dedicated server. it loads automatically.
 
