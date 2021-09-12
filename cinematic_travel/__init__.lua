@@ -524,21 +524,22 @@ function setup_hint_messages()
     array_hint_messages[1] = "Welcome to ^4Hosseinpourziyaie^7's ^4Cinematic Travel Mod"
     array_hint_messages[2] = "Hold [^3[{+activate}]^7] To Start Cinematic Travel"
     array_hint_messages[3] = "You can ^1Dispose^7 Hint messages anytime with [^3[{+melee_zoom}]^7]"
-	array_hint_messages[4] = "Consider rating and giving SUB on project's github page"
-	array_hint_messages[5] = "For ^5best ^7raw footage ^1disable ^2cg_draw2d ^7using console"
-	array_hint_messages[6] = "You can use ^3Developer Tool ^7in code to record your own pathz"
-	array_hint_messages[7] = "This Script Developed with Heart by ^3Hosseinpourziyaie"
+    array_hint_messages[4] = "set your ^2cg_fov ^7to ^270 for ^5best ^7view footage ^7using console"
+    array_hint_messages[5] = "Consider rating and giving SUB on project's github page"
+    array_hint_messages[6] = "For ^5best ^7raw footage ^1disable ^2cg_draw2d ^7using console"
+    array_hint_messages[7] = "You can use ^3Developer Tool ^7in code to record your own pathz"
+    array_hint_messages[8] = "This Script Developed with Heart by ^3Hosseinpourziyaie"
 	
-	global_hint_message = "Loaded script 'iw6x/scripts/cinematic_travel' successfully!"
+    global_hint_message = "Loaded script 'iw6x/scripts/cinematic_travel' successfully!"
 	
     function shift_hint_message()
-	    global_hint_message = array_hint_messages[hint_msg_current_index]
+        global_hint_message = array_hint_messages[hint_msg_current_index]
 		
         if hint_msg_current_index < tablelength(array_hint_messages) then  
             hint_msg_current_index = hint_msg_current_index + 1
-	    else
-	        hint_msg_current_index = 1
-		end	
+	else
+	    hint_msg_current_index = 1
+	end	
     end
 	
     local hint_shift_interval = game:oninterval(shift_hint_message, 8000)
