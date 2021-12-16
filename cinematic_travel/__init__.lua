@@ -155,7 +155,7 @@ function starting_sequence_initialize(player)
     progressbar_sl.horzalign = "center";
     progressbar_sl.vertalign = "bottom";	
     progressbar_sl.hidewheninmenu = true
-    progressbar_sl:setshader("white", 0, 8);
+    progressbar_sl:setshader("white", 0, 8); -- iw6x-v1.1.0 not had setshader in its functions-table
 	progressbar_sl.sort = 3	
 	
 	local progressbar_bg = game:newclienthudelem(player)
@@ -167,7 +167,7 @@ function starting_sequence_initialize(player)
     progressbar_bg.horzalign = "center";
     progressbar_bg.vertalign = "bottom";
     progressbar_bg.hidewheninmenu = true
-    progressbar_bg:setshader("black", 140, 10);
+    progressbar_bg:setshader("black", 140, 10); -- iw6x-v1.1.0 not had setshader in its functions-table
 	progressbar_bg.sort = 2
 	
 	local use_keydown_ms = 0 -- couldnt pass type through iterator --> *** Script execution error *** *** attempt to compare number with sol.scripting::entity ***
